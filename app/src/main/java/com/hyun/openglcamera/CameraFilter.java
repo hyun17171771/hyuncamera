@@ -1,4 +1,4 @@
-package com.example.openglcamera;
+package com.hyun.openglcamera;
 
 import android.content.Context;
 import android.opengl.GLES11Ext;

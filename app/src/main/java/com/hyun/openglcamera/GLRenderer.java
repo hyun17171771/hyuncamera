@@ -1,4 +1,4 @@
-package com.example.openglcamera;
+package com.hyun.openglcamera;
 
 import android.app.Activity;
 import android.content.Context;
@@ -37,10 +37,10 @@ import java.util.concurrent.TimeUnit;
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
 
-import static com.example.openglcamera.GlobalConstant.HORIZONTAL_MODE1;
-import static com.example.openglcamera.GlobalConstant.HORIZONTAL_MODE2;
-import static com.example.openglcamera.GlobalConstant.VERTICAL_MODE1;
-import static com.example.openglcamera.GlobalConstant.VERTICAL_MODE2;
+import static com.hyun.openglcamera.GlobalConstant.HORIZONTAL_MODE1;
+import static com.hyun.openglcamera.GlobalConstant.HORIZONTAL_MODE2;
+import static com.hyun.openglcamera.GlobalConstant.VERTICAL_MODE1;
+import static com.hyun.openglcamera.GlobalConstant.VERTICAL_MODE2;
 
 public class GLRenderer implements GLSurfaceView.Renderer {
 

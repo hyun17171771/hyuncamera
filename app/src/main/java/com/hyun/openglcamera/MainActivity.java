@@ -1,4 +1,4 @@
-package com.example.openglcamera;
+package com.hyun.openglcamera;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -19,10 +19,10 @@ import com.bumptech.glide.RequestManager;
 
 import java.util.ArrayList;
 
-import static com.example.openglcamera.GlobalConstant.HORIZONTAL_MODE1;
-import static com.example.openglcamera.GlobalConstant.HORIZONTAL_MODE2;
-import static com.example.openglcamera.GlobalConstant.VERTICAL_MODE1;
-import static com.example.openglcamera.GlobalConstant.VERTICAL_MODE2;
+import static com.hyun.openglcamera.GlobalConstant.HORIZONTAL_MODE1;
+import static com.hyun.openglcamera.GlobalConstant.HORIZONTAL_MODE2;
+import static com.hyun.openglcamera.GlobalConstant.VERTICAL_MODE1;
+import static com.hyun.openglcamera.GlobalConstant.VERTICAL_MODE2;
 
 
 public class MainActivity extends AppCompatActivity {

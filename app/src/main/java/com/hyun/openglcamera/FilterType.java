@@ -1,4 +1,4 @@
-package com.example.openglcamera;
+package com.hyun.openglcamera;
 
 public enum FilterType {
     ORIGINAL("Original", 0),

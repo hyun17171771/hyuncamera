@@ -1,4 +1,4 @@
-package com.example.openglcamera;
+package com.hyun.openglcamera;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
