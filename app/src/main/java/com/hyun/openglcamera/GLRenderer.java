@@ -252,9 +252,10 @@ public class GLRenderer implements GLSurfaceView.Renderer {
                 Size aspectRatio = new Size(MAX_PREVIEW_WIDTH, MAX_PREVIEW_HEIGHT);
                 Size[] choices = map.getOutputSizes(SurfaceTexture.class);
 
-                mPreviewSize = chooseOptimalSize(choices,
-                        width, height, aspectRatio);
-
+                if(choices != null) {
+                    mPreviewSize = chooseOptimalSize(choices,
+                            width, height, aspectRatio);
+                }
 
                 if (mCameraId == null) {
                     mCameraId = cameraId;
